@@ -11,6 +11,9 @@ importers:
       next:
         specifier: 16.4.2
         version: 16.4.2(@types/node@24.3.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      postcss:
+        specifier: ^8.5.31
+        version: 8.5.31
       react:
         specifier: 19.2.0
         version: 19.2.0

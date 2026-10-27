@@ -1,8 +1,2 @@
-# Dependencias autorizadas a correr scripts de construcción.
-# Sin esto, pnpm 11 bloquea el install de estas dependencias
-# (ERR_PNPM_IGNORED_BUILDS) y herramientas como el CLI de Nest
-# lo reportan como fallo total de instalación. Esta lista es la
-# forma "resuelta de fábrica" de ese problema en la plantilla:
-# el proyecto generado instala sin intervención manual.
-onlyBuiltDependencies:
-  - "@tailwindcss/oxide"
+allowBuilds:
+  '@tailwindcss/oxide': true
