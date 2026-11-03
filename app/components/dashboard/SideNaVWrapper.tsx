@@ -36,7 +36,7 @@ function SideNaVWrapper() {
           </svg>
         </button>
       </header>
-      <SideNav open={navOpen} onClose={() => setNavOpen(false)} />;
+      <SideNav open={navOpen} onClose={() => setNavOpen(false)} />
     </>
   );
 }
